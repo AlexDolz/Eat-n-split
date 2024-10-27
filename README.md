@@ -6,4 +6,4 @@
 
 - [link](https://alexdolz.github.io/Eat-n-split/)
 
-<img src='https://github.com/user-attachments/assets/1983e52b-5295-4f75-8443-277ca36bc99c'>
+<img src='https://github.com/user-attachments/assets/7f6aa4e0-9210-45ab-be2e-d7dc48703e2e'>

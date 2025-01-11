@@ -32,6 +32,12 @@ body {
   column-gap: 4rem;
   align-items: start;
 }
+@media (max-width: 850px) {
+  .app {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+}
 
 .button {
   background-color: var(--color-medium);
@@ -125,6 +131,11 @@ form {
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
+}
+@media (max-width: 850px) {
+  .form-split-bill {
+    margin-bottom: 20px;
+  }
 }
 
 label {

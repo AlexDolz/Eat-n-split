@@ -36,6 +36,8 @@ body {
   .app {
     grid-template-columns: auto;
     gap: 30px;
+    max-height: 90vh;
+    padding: 0 1rem;
   }
 }
 
@@ -122,15 +124,41 @@ form {
   background-color: var(--color-lightest);
   border-radius: 7px;
 }
+@media (max-width: 378px) {
+  form {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 353px) {
+  form {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 339px) {
+  form {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 333px) {
+  form {
+    font-size: 1rem;
+  }
+}
 
 .form-add-friend {
   grid-template-columns: 1fr 1.5fr;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
+
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
+}
+@media (max-width: 378px) {
+  .form-split-bill {
+    padding: 3.2rem 3rem;
+  }
 }
 @media (max-width: 850px) {
   .form-split-bill {

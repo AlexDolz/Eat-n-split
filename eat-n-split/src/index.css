@@ -124,24 +124,35 @@ form {
   background-color: var(--color-lightest);
   border-radius: 7px;
 }
-@media (max-width: 378px) {
+@media (max-width: 430px) {
   form {
     font-size: 1.3rem;
+    gap: 0.7rem;
   }
 }
-@media (max-width: 353px) {
+@media (max-width: 400px) {
   form {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 339px) {
+@media (max-width: 387px) {
   form {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 333px) {
+@media (max-width: 357px) {
   form {
     font-size: 1rem;
+  }
+}
+@media (max-width: 346px) {
+  form {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 336px) {
+  form {
+    font-size: 0.8rem;
   }
 }
 
@@ -188,6 +199,12 @@ select {
   transition: 0.3s;
 }
 
+@media (max-width: 430px) {
+  input,
+  select {
+    font-size: 1rem;
+  }
+}
 input:focus,
 select:focus {
   outline: none;
@@ -205,4 +222,9 @@ form h2 {
   text-transform: uppercase;
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
+}
+@media (max-width: 397px) {
+  form h2 {
+    font-size: 1.7rem;
+  }
 }
